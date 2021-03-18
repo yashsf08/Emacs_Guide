@@ -1,0 +1,42 @@
+# Emacs Ultimate guide 
+
+* Help
+
+** Emacs tutorial 
+   - C-h t
+
+** Emacs keyword/expression help
+   - C-h f
+
+** Emacs key help
+   - C-h k
+
+
+* Buffers 
+
+** To create buffer or use buffer
+   - C-x b
+
+** To list buffer in different window
+   - C-x C-b
+
+** to kill buffer
+   - C-x k
+
+** 
+
+
+* Setting up ido-mode
+  - (setq ido-enable-flex-matching t)
+  - (setq ido-everywhere t)
+  - (ido-mode 1)
+
+* setting up ibuffer window ( a somewhat better version of buffer windows)
+  - (defalias 'list-buffers 'ibuffer)
+  - (defalias 'list-buffers 'ibuffer-other-window)
+** Controls
+   _ D - to mark buffers for deletion
+   _ X - execute buffers with D
+   _ C-d - to mark buffers (and so on...)
+
+
